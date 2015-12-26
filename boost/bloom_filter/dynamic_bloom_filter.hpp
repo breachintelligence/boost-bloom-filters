@@ -49,7 +49,7 @@ namespace boost {
       
       //* constructors
       dynamic_bloom_filter() {}
-      dynamic_bloom_filter(bitset_type b) { bits = b; }
+      dynamic_bloom_filter(bitset_type b) { bits = b; } 
       
       explicit dynamic_bloom_filter(const size_t bit_capacity) : 
 	bits(bit_capacity) {}
